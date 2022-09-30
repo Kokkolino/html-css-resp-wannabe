@@ -134,7 +134,6 @@ img {
 
     .row{
         flex-direction: column;
-        /* width: 100vw; */
     }
     
     .lessons .col{
@@ -143,7 +142,7 @@ img {
 
     .lessons .col img,
     .steps .col img{
-        height: 230px;
+        height: auto;
         margin-bottom: 1rem;
         width: 90%;
     }
@@ -171,6 +170,12 @@ img {
 
     .why-us .col-left,
     .why-us .col-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1160px){
+    .container{
         width: 100%;
     }
 }
